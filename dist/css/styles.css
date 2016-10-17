@@ -1,0 +1,118 @@
+::selection {
+    background: rgba(97, 155, 185, 0.8);
+    color: #FFF;
+}
+::-moz-selection {
+    background: rgba(97, 155, 185, 0.8);
+    color: #FFF;
+}
+.container.card {
+    animation: in 0.5s ease-in-out 0s;
+}
+@keyframes in {
+  from {
+    transform: translateY(5px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+#header-bg-outer {
+    position: relative;
+    height: 250px;
+    background: #
+}
+/*
+#header-bg {
+    background: url('Material Design/index.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+}
+*/
+#header-bg {
+    background: url('../../includes/bg.png');
+    background-repeat: no-repeat;
+    background-size: 100px 200px;
+    background-position: left;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    /*z-index: 1000;*/
+}
+#bg-wrapper { position: relative; height: 250px; }
+#header-text-overlay {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 500;
+}
+#header-text {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    color: rgba(255, 255, 255, 0.8);
+    /*text-shadow: -1px -1px #555, 1px -1px #555, -1px 1px #555, 1px 1px #555;*/
+    display: flex;
+    align-items: center;
+    font: 50px "Oswald","Arial Narrow", sans-serif;
+    /*z-index: 1000;*/
+}
+#header-text * {
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 22.5%;
+}
+nav.navbar .fa {
+    margin-right: 5px;
+}
+.fa { margin: 0 5px; }
+header + main { margin-top: 20px; }
+
+@media screen and (max-width: 720px) {
+  main { margin-top: 0 !important; }
+  #month-wrapper, #date-wrapper, #year-wrapper, #age-wrapper {
+    margin-left: 0px !important;
+  }
+  #date-wrapper, #year-wrapper, #age-wrapper {
+    margin-top: 10px;
+  }
+}
+
+.nav-active { padding-top: 64.5px; }
+#aside {
+    margin-left: 10px;
+    width: 24%;
+}
+@media screen and (max-width: 1140px) {
+  #aside {
+    width: 23.9%;
+  }
+}
+@media screen and (max-width: 920px) {
+  #aside {
+    margin-left: 0;
+    width: auto;
+    margin-top: 10px;
+  }
+}
