@@ -14,6 +14,7 @@
     margin-right: 5px;
   }
   @media screen and (max-width: 720px) {
+    .bg-white.card-8.no-padding { height: auto; }
     .title { font-size: 30px; }
     #desc { font-size: 20px; }
   }
@@ -21,7 +22,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: 205px;
     right: 0;
     z-index: -1;
     background: url('https://images.alphacoders.com/476/thumb-1920-476980.png');
@@ -33,7 +34,7 @@
 
 <body>
 <div id="bg"></div>
-<div class="bg-white card-8 no-padding" style="position: absolute; bottom: 0px; left: 0px; right: 0px;">
+<div class="bg-white card-8 no-padding" style="position: absolute; bottom: 0px; left: 0px; right: 0px; height: 205px;">
 <div class="container">
 <h1 class="title no-margin padding-lg">Uh Oh!</h1>
 <h4 id="desc" class="no-margin padding-lg" style="padding-top: 0px ! important; padding-bottom: 30px ! important;"><span class="error">Error 404 : </span>It seems that you've been in a wrong page ...</h4>
