@@ -61,8 +61,20 @@ blockquote.quote {
     border-left: 3px solid #AAA;
 }
 iframe { border: 0; }
+
+/* Margins */
 .no-margin { margin: 0px !important; }
+.margin-sm { margin: 2px 5px !important; }
+.margin-md { margin: 5px 10px !important; }
+.margin-lg { margin: 10px 20px !important; }
+.margin-xl { margin: 20px 50px !important; }
+
+/* Padding */
 .no-padding { padding: 0px !important; }
+.padding-sm { padding: 2px 5px !important; }
+.padding-md { padding: 5px 10px !important; }
+.padding-lg { padding: 10px 20px !important; }
+.padding-xl { padding: 20px 50px !important; }
 
 /* Floats and Clears */
 .pull-left, .float-left { float: left !important; }
