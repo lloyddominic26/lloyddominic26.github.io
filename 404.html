@@ -7,18 +7,25 @@
   #desc {
     font: 30px "Roboto Condensed","Arial Narrow", sans-serif;
     color: #555;
+    font-weight: 100;
   }
   .error {
     color: #AAA;
     margin-right: 5px;
   }
+  @media screen and (max-width: 720px) {
+    .title { font-size: 30px; }
+    #desc { font-size: 20px; }
+  }
 </style>
 </head>
 
 <body>
-<div class="container card-8 no-padding">
-<h1 class="title no-margin padding-xl bg-cyan">Uh Oh!</h1>
-<h4 id="desc" class="no-margin padding-lg bg-light"><span class="error">Error 404 : </span>It seems that you've been in a wrong page ...</h4>
+<div class="bg-white card-8 no-padding" style="position: absolute; bottom: 0px; left: 0px; right: 0px;">
+<div class="container">
+<h1 class="title no-margin padding-lg">Uh Oh!</h1>
+<h4 id="desc" class="no-margin padding-lg" style="padding-top: 0px ! important; padding-bottom: 30px ! important;"><span class="error">Error 404 : </span>It seems that you've been in a wrong page ...</h4>
+</div>
 </div>
 </body>
 
