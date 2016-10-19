@@ -17,10 +17,22 @@
     .title { font-size: 30px; }
     #desc { font-size: 20px; }
   }
+  #bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: url('https://images.alphacoders.com/476/thumb-1920-476980.png');
+    background-size: cover;
+    background-position: center;
+  }
 </style>
 </head>
 
 <body>
+<div id="bg"></div>
 <div class="bg-white card-8 no-padding" style="position: absolute; bottom: 0px; left: 0px; right: 0px;">
 <div class="container">
 <h1 class="title no-margin padding-lg">Uh Oh!</h1>
