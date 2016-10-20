@@ -8,6 +8,8 @@
     font: 30px "Roboto Condensed","Arial Narrow", sans-serif;
     color: #555;
     font-weight: 100;
+    padding-top: 0px ! important;
+    padding-bottom: 30px ! important;
   }
   .error {
     color: #AAA;
@@ -29,15 +31,24 @@
     background-size: cover;
     background-position: center;
   }
+  #wrapper {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 205px;
+    background-image: linear-gradient(to bottom, transparent 20%, rgba(0, 0, 0, 0.8) 90%);
+    color: rgba(255, 255, 255 0.8);
+  }
 </style>
 </head>
 
 <body>
 <div id="bg"></div>
-<div class="bg-white card-8 no-padding" style="position: absolute; bottom: 0px; left: 0px; right: 0px; height: 205px;">
+<div id="wrapper" class="no-padding">
 <div class="container">
 <h1 class="title no-margin padding-lg">Uh Oh!</h1>
-<h4 id="desc" class="no-margin padding-lg" style="padding-top: 0px ! important; padding-bottom: 30px ! important;"><span class="error">Error 404 : </span>It seems that you've been in a wrong page ...</h4>
+<h4 id="desc" class="no-margin padding-lg"><span class="error">Error 404 : </span>It seems that you've been in a wrong page ...</h4>
 </div>
 </div>
 </body>
